@@ -143,6 +143,33 @@ DesignPatterns/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/build
 .PHONY : DesignPatterns/fast
 
+AbstractFactory.o: AbstractFactory.cpp.o
+
+.PHONY : AbstractFactory.o
+
+# target to build an object file
+AbstractFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory.cpp.o
+.PHONY : AbstractFactory.cpp.o
+
+AbstractFactory.i: AbstractFactory.cpp.i
+
+.PHONY : AbstractFactory.i
+
+# target to preprocess a source file
+AbstractFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory.cpp.i
+.PHONY : AbstractFactory.cpp.i
+
+AbstractFactory.s: AbstractFactory.cpp.s
+
+.PHONY : AbstractFactory.s
+
+# target to generate assembly for a file
+AbstractFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/AbstractFactory.cpp.s
+.PHONY : AbstractFactory.cpp.s
+
 Builder.o: Builder.cpp.o
 
 .PHONY : Builder.o
@@ -260,6 +287,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DesignPatterns"
+	@echo "... AbstractFactory.o"
+	@echo "... AbstractFactory.i"
+	@echo "... AbstractFactory.s"
 	@echo "... Builder.o"
 	@echo "... Builder.i"
 	@echo "... Builder.s"

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Person.h"
 #include "Singleton.h"
+#include "AbstractFactory.h"
 
 int main() {
     /**
@@ -21,4 +22,24 @@ int main() {
     std::cout << s-> getName()<< std::endl;
     std::cout << r->getName() << std::endl;
     return 0;
+
+    /**
+     * Abstract Factory
+     */
+    UIFactory* ui = new GtkUIFactory();
+
+    /* Use the factory to build interface. */
+    Window* toolbox = ui->getToolboxWindow();
+    Window* layers  = ui->getLayersWindow();
+    Window* main    = ui->getMainWindow();
+
+    /* See what have we recieved. */
+    std::cout << toolbox->getToolkit() << ":"
+              << toolbox->getType() << std::endl;
+
+    std::cout << layers->getToolkit() << ":"
+              << layers->getType() << std::endl;
+
+    std::cout << main->getToolkit() << ":"
+              << main->getType() << std::endl;
 }

@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/AbstractFactory.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/AbstractFactory.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
 		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.cpp">
 			<Option target="DesignPatterns"/>
 		</Unit>
