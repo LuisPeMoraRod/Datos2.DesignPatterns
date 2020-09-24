@@ -7,15 +7,16 @@
 using namespace std;
 #include "Builder.h"
 
-class Builder;
 
 class Person {
 protected:
     int age, id;
     string name, gender, nationality;
-    explicit Person(Builder* pBuilder);
 
 public:
+    Person(Builder* pBuilder);
+    ~Person();
+
     static Builder * builder();
 
     int getAge() const;

@@ -36,3 +36,7 @@ const string &Person::getGender() const {
 const string &Person::getNationality() const {
     return nationality;
 }
+
+Person::~Person() {
+    delete this;
+}

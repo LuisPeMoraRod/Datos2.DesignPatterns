@@ -3,23 +3,29 @@
 //
 #include "Person.h"
 #include <string>
+
 #pragma once
 using namespace std;
 
-class Person;
 
-class Builder{
+class Builder {
 protected:
     int age, id;
     string name, gender, nationality;
 public:
     Builder();
-    Builder* withId(int id);
-    Builder* withAge(int age);
-    Builder* withName(string name);
-    Builder* withGender(string gender);
-    Builder* withNationality(string nationality);
-    Person* build();
+
+    Builder *withId(int id);
+
+    Builder *withAge(int age);
+
+    Builder *withName(string name);
+
+    Builder *withGender(string gender);
+
+    Builder *withNationality(string nationality);
+
+    Person *build();
 
     int getAge() const;
 
