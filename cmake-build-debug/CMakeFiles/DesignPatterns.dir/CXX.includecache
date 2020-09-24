@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.cpp
+Builder.h
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h
+
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h
+Person.h
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h
+string
+-
+
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.cpp
+Person.h
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h
+
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h
+string
+-
+Builder.h
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h
+
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/main.cpp
+iostream
+-
+Person.h
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h
+
