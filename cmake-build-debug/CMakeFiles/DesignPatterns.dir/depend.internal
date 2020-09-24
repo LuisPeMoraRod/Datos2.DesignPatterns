@@ -9,6 +9,9 @@ CMakeFiles/DesignPatterns.dir/Person.cpp.o
  /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h
  /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.cpp
  /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h
+CMakeFiles/DesignPatterns.dir/Singleton.cpp.o
+ /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.cpp
+ /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.h
 CMakeFiles/DesignPatterns.dir/main.cpp.o
  /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h
  /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h

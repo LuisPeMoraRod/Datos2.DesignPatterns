@@ -94,6 +94,12 @@
 		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h">
 			<Option target="DesignPatterns"/>
 		</Unit>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
 		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/main.cpp">
 			<Option target="DesignPatterns"/>
 		</Unit>

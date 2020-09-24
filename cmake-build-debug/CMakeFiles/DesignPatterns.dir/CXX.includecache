@@ -26,6 +26,16 @@ string
 Builder.h
 /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h
 
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.cpp
+Singleton.h
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.h
+
+/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Singleton.h
+iostream
+-
+string
+-
+
 /home/luispedro/Documents/TEC/Semestre III/DesignPatterns/main.cpp
 iostream
 -

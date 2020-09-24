@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DesignPatterns.dir/Builder.cpp.o"
   "CMakeFiles/DesignPatterns.dir/Person.cpp.o"
+  "CMakeFiles/DesignPatterns.dir/Singleton.cpp.o"
   "CMakeFiles/DesignPatterns.dir/main.cpp.o"
   "DesignPatterns"
   "DesignPatterns.pdb"

@@ -9,6 +9,9 @@ CMakeFiles/DesignPatterns.dir/Person.cpp.o: ../Builder.h
 CMakeFiles/DesignPatterns.dir/Person.cpp.o: ../Person.cpp
 CMakeFiles/DesignPatterns.dir/Person.cpp.o: ../Person.h
 
+CMakeFiles/DesignPatterns.dir/Singleton.cpp.o: ../Singleton.cpp
+CMakeFiles/DesignPatterns.dir/Singleton.cpp.o: ../Singleton.h
+
 CMakeFiles/DesignPatterns.dir/main.cpp.o: ../Builder.h
 CMakeFiles/DesignPatterns.dir/main.cpp.o: ../Person.h
 CMakeFiles/DesignPatterns.dir/main.cpp.o: ../main.cpp
