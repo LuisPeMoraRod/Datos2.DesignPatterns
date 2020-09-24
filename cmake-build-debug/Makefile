@@ -143,6 +143,60 @@ DesignPatterns/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/build
 .PHONY : DesignPatterns/fast
 
+Builder.o: Builder.cpp.o
+
+.PHONY : Builder.o
+
+# target to build an object file
+Builder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Builder.cpp.o
+.PHONY : Builder.cpp.o
+
+Builder.i: Builder.cpp.i
+
+.PHONY : Builder.i
+
+# target to preprocess a source file
+Builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Builder.cpp.i
+.PHONY : Builder.cpp.i
+
+Builder.s: Builder.cpp.s
+
+.PHONY : Builder.s
+
+# target to generate assembly for a file
+Builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Builder.cpp.s
+.PHONY : Builder.cpp.s
+
+Person.o: Person.cpp.o
+
+.PHONY : Person.o
+
+# target to build an object file
+Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Person.cpp.o
+.PHONY : Person.cpp.o
+
+Person.i: Person.cpp.i
+
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DesignPatterns.dir/build.make CMakeFiles/DesignPatterns.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DesignPatterns"
+	@echo "... Builder.o"
+	@echo "... Builder.i"
+	@echo "... Builder.s"
+	@echo "... Person.o"
+	@echo "... Person.i"
+	@echo "... Person.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

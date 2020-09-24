@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/DesignPatterns.dir/main.cpp.o  -o DesignPatterns 
+/usr/bin/c++  -g   CMakeFiles/DesignPatterns.dir/main.cpp.o CMakeFiles/DesignPatterns.dir/Person.cpp.o CMakeFiles/DesignPatterns.dir/Builder.cpp.o  -o DesignPatterns 

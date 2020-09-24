@@ -1,6 +1,10 @@
 #include <iostream>
+#include "Person.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Person * pPerson;
+    pPerson = Person::builder()->withId(901090674)->withName("Fulano")->withAge(44)->build();
+    std::cout<<"Name: "<<pPerson->getName()<<std::endl;
+    std::cout<<"ID: "<<pPerson->getId()<<std::endl;
+    std::cout<<"Age: "<<pPerson->getAge()<<std::endl;
 }

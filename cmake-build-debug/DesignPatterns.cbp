@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Builder.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.cpp">
+			<Option target="DesignPatterns"/>
+		</Unit>
+		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/Person.h">
+			<Option target="DesignPatterns"/>
+		</Unit>
 		<Unit filename="/home/luispedro/Documents/TEC/Semestre III/DesignPatterns/main.cpp">
 			<Option target="DesignPatterns"/>
 		</Unit>
